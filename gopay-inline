@@ -1,0 +1,7 @@
+/**
+ * Set gateway langue to EN
+ */
+add_filter( 'gopay_create_payment_lang', 'custom_gopay_language' );
+function custom_gopay_language( $lang ){
+    return 'EN';
+}
