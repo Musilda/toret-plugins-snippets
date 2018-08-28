@@ -1,0 +1,2 @@
+//Remove brackets and content from string
+$text = preg_replace('/[\[{\(].*[\]}\)]/U' , '', $text);
